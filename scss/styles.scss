@@ -1,0 +1,64 @@
+//Selection
+::selection {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+}
+
+//Scroll Bar
+::-webkit-scrollbar {
+  width: 0.8rem;
+  background-color: var(--bs-secondary);
+}
+::-webkit-scrollbar-thumb {
+  width: 0.5rem;
+  background-color: #c69139;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+//Navbar
+.navbar {
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+
+//Hero
+.hero {
+  min-height: 1000px;
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/header-background.jpg) center center;
+  background-size: cover;
+}
+
+//slider
+.hero .slide {
+  width: 70%;
+  margin: 0 auto;
+}
+
+//check
+.form-check-label {
+  cursor: pointer;
+}
+
+//Invitation
+
+.invitation .invitation-bg {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/invitation-background.jpg) center center;
+  background-size: cover;
+}
