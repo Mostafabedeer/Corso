@@ -6,6 +6,8 @@ Bootstrap website for training courses, workshops, seminars, etc. It has a mixed
 
 ## Demo
 
+https://corso-gold.vercel.app/
+
 ## Features
 
 - Modern layout with custom colors/styles/backgrounds
